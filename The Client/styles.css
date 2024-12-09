@@ -1,0 +1,202 @@
+/*HEADER*/
+header{
+    background-color: #900718;
+    margin: 1rem;
+}
+.logo{
+    width: 200px;
+}
+.logo-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 3rem;
+}
+nav{
+    text-align: center;
+    padding-bottom: 2rem;
+    background-color: #83B086;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: #3E5340;
+    font-size: 20px;
+    padding: 5px;
+    margin:5px;
+    font-family: "Noto Sans", sans-serif;
+}
+a:hover{
+    background-color: #283F2A;
+    color: white;
+    padding: 1rem;
+}
+/*WELCOME*/
+h1{
+    margin: 3rem;
+    color: whitesmoke;
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 50px;
+}
+.welcome{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.welcomeh2{
+    text-align: center;
+}
+.welcomeimg{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*HOME GALLERY*/
+.gallery{
+    width: 400px;
+    margin: 1rem;
+}
+.gallerydiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+/*GENERAL*/
+main{
+    border: solid #B28A70;
+    margin: 1rem;
+    border-width: 1rem;
+}
+p{
+    margin: 1rem;
+    font-size: 20px;
+    font-family: "Noto Sans", sans-serif;
+}
+h2{
+    margin: 1rem;
+    font-size: 2rem;
+    font-family: "Sour Gummy", sans-serif;
+}
+body{
+    background-color: #5e3e29;
+}
+#white{
+    background-color: white;
+    border: #B28A70 solid;
+}
+/*CONTACT INFO*/
+.igcontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+}
+.fbcontact{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem;
+}
+.socials{
+    width:75px;
+}
+/*FALL FESTIVITIES*/
+.festivities{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+/*ORCHARD*/
+.appimg{
+    width:150px;
+}
+.apples{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+.apptext{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+/*PLAN YOUR VISIT*/
+.map{
+    width:450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*DESKTOP*/
+@media (min-width:1000px){
+    .desktopcontact{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .zoo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    main{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        border-width: 2rem;
+    }
+    .apples{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    .gala1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        text-align: center;
+    }
+    .two{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        text-align: center;
+    }
+    .three{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        text-align: center;
+    }
+    .four{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        text-align: center;
+    }
+    #white{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    h1{
+        font-size: 8rem;
+    }
+    a{
+        font-size: 25px;
+        padding: 25px;
+        margin:25px;
+    }
+}
