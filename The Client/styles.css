@@ -1,10 +1,11 @@
 /*HEADER*/
 header{
-    background-color: #900718;
+    background-color: #88202b;
     margin: 1rem;
 }
 .logo{
     width: 200px;
+    background-color: none;
 }
 .logo-header{
     display: flex;
@@ -53,6 +54,8 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: solid #7b0916;
+    border-width: 15px;
 }
 /*HOME GALLERY*/
 .gallery{
@@ -84,7 +87,7 @@ h2{
     font-family: "Sour Gummy", sans-serif;
 }
 body{
-    background-color: #5e3e29;
+    background-color: #725440;
 }
 #white{
     background-color: white;
@@ -139,6 +142,9 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.center{
+    text-align: center;
 }
 /*DESKTOP*/
 @media (min-width:1000px){
